@@ -1,0 +1,19 @@
+{
+  "name": "ghost-storage-supabase",
+  "version": "1.0.0",
+  "description": "Supabase storage adapter for Ghost",
+  "homepage": "https://github.com/raulriera/ghost-storage-supabase",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raulriera/ghost-storage-supabase.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Raul Riera",
+    "url": "https://www.raulriera.com"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^1.21.0",
+    "ghost-storage-base": "^0.0.5"
+  }
+}
