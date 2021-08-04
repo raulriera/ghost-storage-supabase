@@ -9,7 +9,7 @@ cd /path/to/your/ghost/installation
 mkdir -p content/adapters/storage/supabase
 ```
 
-After that, simply copy the contexts of this repo into that newly created directory.
+After that, simply copy the contents of this repo into that newly created directory.
 
 ## Usage
 
@@ -19,7 +19,7 @@ Add the following to your configuration file and modify it accordingly.
 "storage": {
     "active": "ghost-storage-supabase",
     "ghost-storage-supabase": {
-        "bucket": "<your public bucket>",
+        "bucket": "<your public bucket name>",
         "supabaseUrl": "<your supabase url>",
         "supabaseKey": "<your supabase anon key>"
     }
