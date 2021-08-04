@@ -32,4 +32,4 @@ Inspiration of this README came from https://github.com/ifvictr/ghost-storage-gi
 
 ## License
 
-[MIT License](LICENSE.txt)
+[MIT License](LICENSE)
