@@ -30,7 +30,7 @@ Add the following to your configuration file and modify it accordingly.
 }
 ```
 
-To locale the information above, follow this [Supabase guide](https://supabase.io/docs/guides/api#api-url-and-keys).
+To locate the information above, follow this [Supabase guide](https://supabase.io/docs/guides/api#api-url-and-keys).
 
 ## Credit
 
