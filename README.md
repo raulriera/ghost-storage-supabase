@@ -9,7 +9,11 @@ cd /path/to/your/ghost/installation
 mkdir -p content/adapters/storage/supabase
 ```
 
-After that, simply copy the contents of this repo into that newly created directory.
+After that, simply copy the contents of this repo into that newly created directory and run 
+
+```bash
+yarn install
+```
 
 ## Usage
 
@@ -24,7 +28,9 @@ Add the following to your configuration file and modify it accordingly.
         "supabaseKey": "<your supabase anon key>"
     }
 }
-```     
+```
+
+To locale the information above, follow this [Supabase guide](https://supabase.io/docs/guides/api#api-url-and-keys).
 
 ## Credit
 
