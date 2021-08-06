@@ -30,7 +30,7 @@ Add the following to your configuration file and modify it accordingly.
 }
 ```
 
-To locate the information above, follow this [Supabase guide](https://supabase.io/docs/guides/api#api-url-and-keys).
+💡 To locate the information above, follow this [Supabase guide](https://supabase.io/docs/guides/api#api-url-and-keys). Buckets are readonly by default, even the public ones needed for this integration. After you have created your public bucket follow the [Policy guides](https://supabase.io/docs/guides/storage#policy-examples) in order to allow public uploading.
 
 ## Credit
 
