@@ -6,7 +6,7 @@
 
 ```bash
 cd /path/to/your/ghost/installation
-mkdir -p content/adapters/storage/supabase
+mkdir -p content/adapters/storage/ghost-storage-supabase
 ```
 
 After that, simply copy the contents of this repo into that newly created directory and run 
