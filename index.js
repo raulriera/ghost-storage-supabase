@@ -1,15 +1,15 @@
-const BaseAdapter = require("ghost-storage-base");
-const { createClient } = require('@supabase/supabase-js');
-const fs = require('fs').promises;
-const fetch = require('node-fetch');
-const debug = require('ghost-ignition').debug('adapter');
+const BaseAdapter = require("ghost-storage-base")
+const { createClient } = require('@supabase/supabase-js')
+const fs = require('fs').promises
+const fetch = require('node-fetch')
+const debug = require('ghost-ignition').debug('adapter')
 
 class SupabaseStorageAdapter extends BaseAdapter {
     constructor(options = {}) {
-        super();
+        super()
 
         this.bucketName = options.bucket || 'ghost-bucket'
-        this.client = createClient(options.supabaseUrl, options.supabaseKey);
+        this.client = createClient(options.supabaseUrl, options.supabaseKey)
     }
 
     async save(file, targetDir) {
@@ -88,4 +88,4 @@ class SupabaseStorageAdapter extends BaseAdapter {
     }
 }
 
-module.exports = SupabaseStorageAdapter;
+module.exports = SupabaseStorageAdapter

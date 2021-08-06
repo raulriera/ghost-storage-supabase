@@ -1,7 +1,8 @@
 {
   "name": "ghost-storage-supabase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Supabase storage adapter for Ghost",
+  "main": "index.js",
   "homepage": "https://github.com/raulriera/ghost-storage-supabase",
   "repository": {
     "type": "git",
@@ -14,6 +15,9 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^1.21.0",
-    "ghost-storage-base": "^0.0.5"
+    "ghost-storage-base": "^0.0.5",
+    "fs": "^0.0.1-security",
+    "ghost-ignition": "^4.6.3",
+    "node-fetch": "^2.6.1"
   }
 }
